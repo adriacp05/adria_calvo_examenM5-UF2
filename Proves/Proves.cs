@@ -121,5 +121,47 @@ namespace Proves
             Console.WriteLine("Resultado: " + resultat);
             Assert.AreEqual(12, resultat);
         }
+
+        ///////////////////////////////////////////////////////////////////////
+
+        [TestMethod]
+        public void divisors1()
+        {
+            String resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.divisors(2);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual("1,2,", resultat);
+        }
+
+        [TestMethod]
+        public void divisors2()
+        {
+            String resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.divisors(10);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual("1,2,5,10,", resultat);
+        }
+
+        [TestMethod]
+        public void divisors3()
+        {
+            String resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.divisors(7);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual("1,7,", resultat);
+        }
+
+        [TestMethod]
+        public void divisors4()
+        {
+            String resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.divisors(15);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual("1,3,5,15,", resultat);
+        }
     }
 }

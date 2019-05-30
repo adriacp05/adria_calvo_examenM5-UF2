@@ -49,5 +49,19 @@ namespace Llibreria
             return result;
         }
 
+        public String divisors(Int32 num)
+        {
+            String divisors = "";
+            int i = 1;
+
+            for (i = 1; i <= num; i++)
+            {
+                if (num % i == 0)
+                {
+                    divisors = divisors + i + ",";
+                }
+            }
+            return divisors;
+        }
     }
 }
