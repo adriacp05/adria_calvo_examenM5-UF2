@@ -1,0 +1,12 @@
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria\Llibreria\bin\Debug\Llibreria.dll
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria\Llibreria\bin\Debug\Llibreria.pdb
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria\Llibreria\obj\Debug\Llibreria.csprojAssemblyReference.cache
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria\Llibreria\obj\Debug\Llibreria.csproj.CoreCompileInputs.cache
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria\Llibreria\obj\Debug\Llibreria.dll
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria\Llibreria\obj\Debug\Llibreria.pdb
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria - copia\Llibreria\bin\Debug\Llibreria.dll
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria - copia\Llibreria\bin\Debug\Llibreria.pdb
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria - copia\Llibreria\obj\Debug\Llibreria.csprojAssemblyReference.cache
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria - copia\Llibreria\obj\Debug\Llibreria.csproj.CoreCompileInputs.cache
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria - copia\Llibreria\obj\Debug\Llibreria.dll
+C:\Users\adria\OneDrive\Documentos\DAM\M5\UF2\Llibreria - copia\Llibreria\obj\Debug\Llibreria.pdb
