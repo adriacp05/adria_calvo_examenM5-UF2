@@ -37,5 +37,17 @@ namespace Llibreria
             }
             return result;
         }
+
+        public Int32 esMesPetit(Int32 a, Int32 b)
+        {
+            int result = b;
+
+            if (a < b)
+            {
+                result = a;
+            }
+            return result;
+        }
+
     }
 }

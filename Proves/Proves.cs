@@ -90,6 +90,36 @@ namespace Proves
             Assert.AreEqual(84, resultat);
         }
 
+        /////////////////////////////////////////////////////////////
 
+        [TestMethod]
+        public void esMesPetit1()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesPetit(41, 84);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(41, resultat);
+        }
+
+        [TestMethod]
+        public void esMesPetit2()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesPetit(2, 24);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(2, resultat);
+        }
+
+        [TestMethod]
+        public void esMesPetit3()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesPetit(14, 12);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(12, resultat);
+        }
     }
 }
