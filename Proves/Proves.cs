@@ -47,5 +47,49 @@ namespace Proves
             Assert.AreEqual(false, resultat);
         }
 
+        /////////////////////////////////////////////////////////////////////////
+
+
+        [TestMethod]
+        public void esMesGran1()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesGran(5, 10);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(10, resultat);
+        }
+
+        [TestMethod]
+        public void esMesGran2()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesGran(10, 5);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(10, resultat);
+        }
+
+        [TestMethod]
+        public void esMesGran3()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesGran(41, 845);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(845, resultat);
+        }
+
+        [TestMethod]
+        public void esMesGran4()
+        {
+            int resultat;
+            ClBiblio clE = new ClBiblio();
+            resultat = clE.esMesGran(41, 84);
+            Console.WriteLine("Resultado: " + resultat);
+            Assert.AreEqual(84, resultat);
+        }
+
+
     }
 }

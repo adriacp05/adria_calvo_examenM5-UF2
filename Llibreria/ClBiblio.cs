@@ -26,5 +26,16 @@ namespace Llibreria
             
             return xtrue;
         }
+
+        public Int32 esMesGran(Int32 a, Int32 b)
+        {
+            int result = b;
+
+            if (a > b)
+            {
+                result = a;
+            }
+            return result;
+        }
     }
 }
